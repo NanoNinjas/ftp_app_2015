@@ -39,7 +39,7 @@ public abstract class SR_9774_AutoTime extends LinearOpMode {
         motorBackRight = hardwareMap.dcMotor.get("motor_1");
         motorBackLeft = hardwareMap.dcMotor.get("motor_2");
 
-        motorFrontRight = hardwareMap.dcMotor.get("motor_7");
+      //  motorFrontRight = hardwareMap.dcMotor.get("motor_7");
        // motorFrontLeft = hardwareMap.dcMotor.get("motor_6");
 
         motorBackLeft.setDirection(DcMotor.Direction.REVERSE);
